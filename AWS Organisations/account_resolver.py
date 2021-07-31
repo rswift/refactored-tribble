@@ -107,7 +107,7 @@ def parse_input():
     while lookup is not None:
         lookup = input("Lookup: ") or None
         if lookup:
-            print(f"\n{lookup}is {style.BOLD}{accounts[lookup]['id']}{style.NORMAL} - {accounts[lookup]['email']}\n")
+            print(f"\n{lookup} is {style.BOLD}{accounts[lookup]['id']}{style.NORMAL} - {accounts[lookup]['email']}\n")
 
 if __name__ == "__main__":
     refresh = False
